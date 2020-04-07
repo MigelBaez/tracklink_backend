@@ -1,0 +1,1 @@
+spring.data.mongodb.uri=mongodb+srv://user_tracklink:tracklink2020@cluster0-zxi22.mongodb.net/db_tracklink?retryWrites=true&w=majority

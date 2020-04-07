@@ -1,0 +1,34 @@
+package pe.com.tracklink.starter.repositories;
+
+import org.springframework.stereotype.Repository;
+import pe.com.tracklink.starter.models.Cliente;
+import java.util.List;
+
+@Repository
+public interface PersonRepository {
+
+    Cliente save(Cliente person);
+
+    List<Cliente> saveAll(List<Cliente> persons);
+
+    List<Cliente> findAll();
+
+    List<Cliente> findAll(List<String> ids);
+
+    Cliente findOne(String id);
+
+    long count();
+
+    long delete(String id);
+
+    long delete(List<String> ids);
+
+    long deleteAll();
+
+    Cliente update(Cliente person);
+
+    long update(List<Cliente> persons);
+
+    double getAverageAge();
+
+}

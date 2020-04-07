@@ -1,0 +1,5 @@
+package pe.com.tracklink.starter.dtos;
+
+public class AverageAgeDTO {
+
+}
