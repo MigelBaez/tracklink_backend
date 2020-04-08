@@ -49,7 +49,7 @@ public class ClienteController {
 
 
   
-    @CrossOrigin(origins = "http://localhost:4200")
+
     @DeleteMapping("cliente/{id}")
     public Long deletecliente(@PathVariable String id) {
         return clienteRepository.delete(id);

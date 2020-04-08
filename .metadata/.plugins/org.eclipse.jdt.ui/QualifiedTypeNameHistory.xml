@@ -1,9 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="pe.com.tracklink.starter.dtos.AverageAgeDTO"/>
-<fullyQualifiedTypeName name="pe.com.tracklink.starter.repositories.PersonRepository"/>
-<fullyQualifiedTypeName name="pe.com.tracklink.starter.models.Person"/>
-<fullyQualifiedTypeName name="pe.com.tracklink.starter.repositories.ClienteRepository"/>
-<fullyQualifiedTypeName name="org.springframework.data.mongodb.core.aggregation.ConvertOperators.Convert"/>
-<fullyQualifiedTypeName name="java.net.InetAddress"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>

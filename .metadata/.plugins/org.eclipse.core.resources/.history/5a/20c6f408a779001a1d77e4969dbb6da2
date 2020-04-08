@@ -24,7 +24,6 @@ public class ClienteController {
         this.clienteRepository = clienteRepository;
     }
 
-    @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("cliente")
     @ResponseStatus(HttpStatus.CREATED)
     public Cliente postcliente(@RequestBody Cliente cliente) {
@@ -32,7 +31,7 @@ public class ClienteController {
     }
 
 
-    @CrossOrigin(origins = "http://localhost:4200")
+
     @GetMapping("clientes")
     public List<Cliente> getclientes() {
         return clienteRepository.findAll();
@@ -49,7 +48,7 @@ public class ClienteController {
 
 
   
-    @CrossOrigin(origins = "http://localhost:4200")
+
     @DeleteMapping("cliente/{id}")
     public Long deletecliente(@PathVariable String id) {
         return clienteRepository.delete(id);
@@ -58,7 +57,7 @@ public class ClienteController {
 
 
  
-    @CrossOrigin(origins = "http://localhost:4200")
+
     @PutMapping("cliente")
     public Cliente putcliente(@RequestBody Cliente cliente) {
         return clienteRepository.update(cliente);
